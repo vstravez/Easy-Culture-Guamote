@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Easy Culture Guamote</string>
+    <string name="title_activity_main">Easy Culture Guamote</string>
+    <string name="package_name">easy.culture.guamote</string>
+    <string name="custom_url_scheme">easy.culture.guamote</string>
+</resources>

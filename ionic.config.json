@@ -1,0 +1,7 @@
+{
+  "name": "Easy Culture Guamote",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

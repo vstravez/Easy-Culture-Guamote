@@ -1,0 +1,27 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Mapa
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding class="background" [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Tab 2</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-item>
+    <ion-label>Seleccione</ion-label>
+    <ion-select placeholder="Lugar">
+      <ion-select-option value="res">Restaurantes</ion-select-option>
+      <ion-select-option value="par">Parques</ion-select-option>
+      <ion-select-option value="lutu">Lugares turísticos</ion-select-option>
+      <ion-select-option value="serhos">Servicios hospitalarios</ion-select-option>
+    </ion-select>
+    
+  </ion-item>
+  <div id="map" #map></div>
+  <!--<app-explore-container name="Tab 2 page"></app-explore-container>-->
+</ion-content>
